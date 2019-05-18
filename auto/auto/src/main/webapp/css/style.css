@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    background-image: url("../image/1.jpg");
+
+    background-repeat: no-repeat;
+    font-family:  'Roboto', Helvetica, Arial, sans-serif;
+
+}
+
+
+#container {
+    margin-top: 30px;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    height: 50px;
+}
+
+#btn-start-recording {
+    padding: 10px;
+    background: #eee;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 16px;
+    outline: none !important;
+    cursor: pointer;
+    margin-left: 160px;
+}
+
+#btn-stop-recording {
+    padding: 10px;
+    background: #eee;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 16px;
+    outline: none !important;
+    cursor: pointer;
+    margin-left: 160px;
+}
+
+button[disabled] {
+    background: #aaa !important;
+    cursor: default;
+}
+
+#btn-start-recording {
+    background: #5db85c;
+}
+
+#btn-stop-recording {
+    background: #d95450;
+}
+
+#btn-start-palying {
+    background: #d95450;
+}
+
+#btn-start-saving {
+    background: #d95450;
+}
+
+#player {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    border: 1px solid #ddd;
+    background: #ffffff;
+}
+
+.text-content {
+    margin: 20px auto;
+    resize:none;
+    background: #dbdbdb;
+    width: 100%;
+    font-size: 20px;
+    padding:5px 5px;
+    border-radius: 5px;
+    min-height: 100px;
+    box-sizing: border-box;
+    vertical-align:middle
+
+}
+
+audio {
+    width: 100%;
+}
+
+#inbo{
+    width: 100%;
+    height: 20px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+#change{
+    height: 20px;
+    width: 0;
+    background-color: #009933;
+
+}
+#historyBtn{
+    color: black;
+    font-family: inherit;
+     margin-left: 0px;
+}
+a{text-decoration:none;
+
+}
